@@ -1,9 +1,11 @@
-import './App.css';
+
+import Map from './Components/Map/Map';
 
 function App() {
   return (
-    <div className="App">
-      hello
+    <div>
+      <Map />
+     
     </div>
   );
 }

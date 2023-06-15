@@ -1,0 +1,26 @@
+body {
+    /* margin: 0;
+    background-color:black ; */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+
+.map-container {
+    position: relative;
+    width: 800px;
+    height: 600px;
+    border: 1px solid black;
+    margin: auto;
+}
+
+.point {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+  }
